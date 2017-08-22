@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /assets/css
+Disallow: /assets/fonts
+Disallow: /assets/dl
+Disallow: /assets/images
+Disallow: /assets/pagelets
+Disallow: /assets/script
+Disallow: /assets/vendor
+
+Sitemap: https;//www.digidoccloud.com/seo/site.xml
