@@ -16,7 +16,8 @@
         <meta name="google-site-verification" content="" />
         <meta name="jalsonic-opinion-verification" content="G245682CSGSD" />
 	<meta name="author" content="Jalsonic Networks Team - 2017- info@jalsonic.com - jaslonic.com">
-    <meta name="author" content="IMRAN AMANAT - imranamanat.com - imran@imranamanat.com - 03228083004 - 2017">
+        <meta name="author" content="IMRAN AMANAT - imranamanat.com - imran@imranamanat.com - 03228083004 - 2017">
+        <meta name="author" content="Aleeza Malik - 2017">
 
 
 
@@ -122,19 +123,17 @@
     <!-- Document
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="backcolor body-compilar js-opinion">
-
         <section class="bannerthenheader promobox jalsonic-promo" style="display: none;"><img src="assets/images/promo.png" height="250"></section>
-
+        <header class="jalsonic-header" id="sticker"><?php include_once 'assets/pagelets/header.php'; ?></header>
         <main class="container-fluid content-body jalsonic-body">
             <div class="row">
 
-                <header class="jalsonic-header" id="sticker"><?php include_once 'assets/pagelets/header.php'; ?></header>
-                <footer class="container-fluid jalsonic-footer"><?php include_once 'assets/pagelets/footer.php'; ?></footer>
+               
+               
 
-             </div>
+            </div>
         </main>
-
-
+         <footer class="jalsonic-footer"><?php include_once 'assets/pagelets/footer.php'; ?></footer>
     </div>
 
     <div class="miniads"></div>

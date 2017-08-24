@@ -9,378 +9,53 @@ and open the template in the editor.
 */
 
 /* Extra small devices (phones, 320px and up) */
-@media (min-width: 10px) and (max-width: 320px) { 
-        .sr-navbar{
+@media (max-width: 320px) { 
+    
+    header .mobile-nav {
+        display: block;
+    }
+    
+    header .jalsonic-nav {
         display: none;
     }
-
-
-    .mobile-nav{
-        display: inline;
-    }
-
-    
-    .sr-nav-login-text, .sr-nav-signup-text{
-        display: none !important;
-    }
-    
-    .mobile-nav-off,.mobile-nav-con{
-        display: inline !important;
-    }
-    
-    
-    .flexslider-mobile-off{
-        display: none;
-    }
-    
-    .flexslider-mobile-on{
-        display: inline;
-    }
-    
-    .sectionbox-nocolor {
-    padding: 27px 0px;  
-    }
-
-}
-
-@media (min-width: 321px) and (max-width: 480px) { 
-
-
-    .sr-nav-login-text, .sr-nav-signup-text{
-        display: none !important;
-    }
-    
-    .sr-share-signup, .sr-share-login {
-        padding: 26px 14px !important;
-        font-size: 15px !important;
-    }
-
-    .sr-share-con{
-        width: 60px !important;
-    }
-    
-    .sr-logo-text{
-        display: none;
-    }
-    
-    .sr-digidocLogo{
-        width: 91px !important;
-    }
-    
-    .flexslider-mobile-off{
-        display: none;
-    }
-    
-    .flexslider-mobile-on{
-        display: inline;
-    }
-    
-    
-    footer .section-one .companylogo {
-        float: left;
-        margin-right: 15px;
-        margin-top: 16px;
-        width: 123px;
-    }
-    
-    footer .section-one .contactUs h3 {
-        font-size: 10px;
-        font-weight: bold;
-        margin-bottom: 4px;
-    }
-    
-    footer .section-one .contactUs li {
-        font-size: 10px;
-    }
-    
-    footer .section-one .share-con {
-        margin: 5px;
-        float: left;
-        width: 100%;
-        height: 116px;
-    }
-    
-    footer .section-one .share-con a .shareBox {
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-        float: left;
-        background-image: url(../images/whiteOpacity10.png);
-        cursor: pointer;
-        text-align: center;
-        margin-top: 16px;
-        margin-left: 0px;
-    }
-    
-    footer .section-two .left {
-        float: left;
-        margin-top: 10px;
-        margin-left: 0px;
-        font-size: 12px;
-    }
-    
-    footer .section-two .right {
-        float: left;
-        margin-top: 10px;
-        margin-right: 10px;
-        font-size: 10px;
-        margin-bottom: 34px;
-    }
-    
-    .container.services-section-body .rows div {
-        margin-top: 7px;
-    }
-    
-    #googlemap {
-    width: 100%;
-    height: 169px;
-    left: 0px;
-    border-radius: 10px;
-    margin-top: 19px;
-}
-
-.contact-overspace {
-
-    width: 98%;
-}
-
-.contact-form-wrap {
-    width: 93%;
-}
-
-.sectionbox-nocolor {
-    padding: 27px 0px;
-}
 
 }
 
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
-    .sr-navbar{
+  
+      header .mobile-nav {
+        display: block;
+    }
+    
+    header .jalsonic-nav {
         display: none;
     }
     
-    .sr-nav-login-text, .sr-nav-signup-text{
-        display: inline;
-        font-size: 13px;
-    }
-
-        .mobile-nav{
-        display: inline;
-    }
-    
-    .mobile-nav-off,.mobile-nav-con{
-        display: inline !important;
-    }
-    
-    .flexslider-mobile-off{
-        display: none;
-    }
-    
-    .flexslider-mobile-on{
-        display: inline !important;
-    }
-    
-     footer .section-one .companylogo {
+    footer .share-con {
+        margin: 27px 0px 0px 10px;
         float: left;
-        margin-right: 15px;
-        margin-top: 16px;
-        width: 123px;
+        width: auto;
+        height: 110px;
     }
     
-    footer .section-one .contactUs h3 {
-        font-size: 10px;
-        font-weight: bold;
-        margin-bottom: 4px;
+    footer .topline .containertext {
+        padding-left: 17px !important;
     }
-    
-    footer .section-one .contactUs li {
-        font-size: 10px;
-    }
-    
-    footer .section-one .share-con {
-        margin: 5px;
-        float: left;
-        width: 100%;
-        height: 116px;
-    }
-    
-    footer .section-one .share-con a .shareBox {
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-        float: left;
-        background-image: url(../images/whiteOpacity10.png);
-        cursor: pointer;
-        text-align: center;
-        margin-top: 16px;
-        margin-left: 0px;
-    }
-    
-    footer .section-two .left {
-        float: left;
-        margin-top: 10px;
-        margin-left: 27px;
-        font-size: 12px;
-    }
-    
-    footer .section-two .right {
-        float: left;
-        margin-top: 10px;
-        margin-right: 10px;
-        font-size: 10px;
-        margin-bottom: 34px;
-    }
-
-    .container.services-section-body .rows div {
-    margin-top: 7px;
-}
-
-
-
-.TextFullWidth .about {
-    width: 100%;
-    padding: 0px;
-    padding-top: 19px;
-    text-align: justify;
-}
-
-.features-cover img {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 29px;
-}
-
-.sr-features-space, .sr-price-space{
-    margin-top: 10px !important;
-}
-
-    #googlemap {
-    width: 100%;
-    height: 169px;
-    margin-top: 19px;
-}
-
-.contact-overspace {
-
-    width: 98%;
-}
-
-.contact-form-wrap {
-    width: 93%;
-}
-
-.pricing__container {
-    flex-direction: column;
-}
-
-.pricing__block {
-    height: 160px !important;
-    margin: 2px 0 !important;
-    width: 99% !important;
-
-}
-
-}
-
-@media (max-width: 925px) { 
-    .sr-navbar{
-        display: none;
-    }
-    
-    .mobile-nav{
-        display: inline;
-    }
-    
-    
-    .sr-share-con{
-        display: inline !important;
-    }
-
-    .mobile-nav-off,.mobile-nav-con{
-        display: inline !important;
-    }
-    
-
-
 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) {
 
-    .js-navbar ul li {
-    padding: 27px 6px;
+   
 
-    }
-    
-    .sr-nav-login-text, .sr-nav-signup-text{
-        display: none;
-    }
-    
-    .sr-share-signup, .sr-share-login {
-        padding: 24px 25px;
-    }
-    
-    .sr-share-con{
-        display: none;
-    }
-    
-    .sr-features-space{
-    margin-top: 10px;
-}
-
-}
-
-@media (max-width: 1122px) {
-
-    
-    .js-navbar ul li {
-    padding: 27px 6px !important;
-
-    }
-    
-        .sr-nav-login-text, .sr-nav-signup-text{
-        display: none;
-    }
-    
-    .sr-share-signup, .sr-share-login {
-    padding: 24.5px 25px;
-    font-size: 17px;
-}
-    
 }
 
 
 /* Large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1123px ) and ( max-width: 1200px ) {
-        .js-navbar ul li {
-    padding: 27px 15px !important;
-
-    }
-    
-    .sr-share-signup, .sr-share-login{
-        padding: 27px 13px !important;
-    }
-    
+@media ( max-width: 1200px ) {
+   
 }
-
-@media (max-width: 1290px) {
-        .js-navbar ul li {
-    padding: 27px 11px !important;
-
-    }
-    
-}
-
-@media (max-width: 1450px) {
-        .js-navbar ul li {
-    padding: 27px 28px;
-
-    }
-    
-    
-}
-

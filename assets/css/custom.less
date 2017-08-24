@@ -5,12 +5,9 @@
 */
 
 
-@baseColor: #08818C;
-@baseLeftColor: #06636B;
+@baseColor: #1e7cb9;
 
-@baseSignIn: #076B74;
-@baseSignUp: #043F44;
-
+@menuHover: #1A6DA3;
 
 @colorWhite: #FFFFFF;
 @titleFont: 'Anton', cursive;
@@ -58,6 +55,127 @@ header{
     left: 0px;
     width: 100%;
     display: block;
-    background-color: #08818C;  padding: 0 !important;
+    background-color: @baseColor;  padding: 0 !important;
+    height: 60px;
+    
+    
+    .logo{
+        float: left;
+        margin: 5px 0px 0px 15px;
+    }
+    
+    .jalsonic-nav{
+        float: left;
+        margin-left: 17px;
+    }
+    
+    .menu{
+        color: @colorWhite !important;
+        float: left;
+        background-color: @baseColor;
+        font-size: 13px;
+        padding: 22px 11px;
+        cursor: pointer;
+    }
+    
+    .mobile-menu{
+        
+    }
+    
+    .menu:hover , .mobile-menu:hover{
+        background-color: @menuHover;
+    }
+    
+    .mobile-nav{
+        font-size: 25px;
+        background: @baseColor;
+        float: right;
+        padding: 15px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    
+    .mobile-nav{
+        position: relative;
+        background-color: @baseColor;
+        color: @colorWhite;
+        cursor: pointer;
+        display: none; 
+    }
+
+    .mobile-nav-off{
+        position: fixed; top: 0px; left: 0px; width: 0%; height: 100%; background-color: @colorWhite; z-index:999; opacity: 0.93;
+
+        .close{
+            font-size: 30px;
+            color: #baseColor;
+            position: absolute;
+            top: 14px;
+            right: 15px;
+        }
+    }
+
+    .mobile-nav-con{
+        position: fixed; top: 0px; left: 0px; width:0px; height: 100%; background-color: @baseColor; z-index:999; font-size: 20px;
+        text-align: left;
+        overflow-x: scroll;
+
+        li{
+            background-color: @baseColor;
+            padding: 15px;
+            color: white !important;
+
+            a.white{
+                color: @colorWhite !important;
+            }
+        }
+    }
+    
+    
+    
+    
 }
 
+footer{
+    background-color: #0C314B;
+    padding-top: 50px;
+    
+    
+        .share-con { margin: 0px; float: right; width: 347px; height: 110px;
+
+            a .shareBox{ height: 100px; width: 100px; margin: 5px; float: right; background-image: url(../images/whiteOpacity10.png); cursor: pointer; }
+            a .shareBox > i.fa{ font-size: 36px; margin: 11px 35px; color: #FFF; margin-top: 18px; }
+            a .shareBox > div.text{ font-size: 14px !important; text-align: center; color: #fff; }
+
+        }
+        
+        .footerlogo{
+            float: left;
+            margin: 5px 0px 0px 15px;
+        }
+        
+       .contactus{
+            float: left;
+            color: @colorWhite;
+            font-size: 12px;
+            margin: 13px 0px 0px 14px;
+            
+            strong{
+                font-weight: bold;
+            }
+       }
+       
+       .topline{
+           border-top: solid 1px #185B8D;
+           margin-top: 50px;
+               
+            .containertext{
+                color: @colorWhite;
+                font-size: 12px;
+                padding: 23px;
+                padding-left: 41px;
+           }
+       }
+}
+ 
