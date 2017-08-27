@@ -1,3 +1,13 @@
+<!-- 
+ __   __  _    __   __  __  _ _  ___  __  _ ___ _____ _   _  __  ___ _  __ __  
+|_ \ /  \| | /' _/ /__\|  \| | |/ _/ |  \| | __|_   _| | | |/__\| _ \ |/ /' _/ 
+ _\ | /\ | |_`._`.| \/ | | ' | | \__ | | ' | _|  | | | 'V' | \/ | v /   <`._`. 
+/___|_||_|___|___/ \__/|_|\__|_|\__/ |_|\__|___| |_| !_/ \_!\__/|_|_\_|\_\___/
+
+Jalsonic Networks - Year:2017 - Emial:info@jalsonic.com - jalsonic.com
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,9 +25,8 @@
 	<meta name="description" content="">
         <meta name="google-site-verification" content="" />
         <meta name="jalsonic-opinion-verification" content="G245682CSGSD" />
-	<meta name="author" content="Jalsonic Networks Team - 2017- info@jalsonic.com - jaslonic.com">
-        <meta name="author" content="IMRAN AMANAT - imranamanat.com - imran@imranamanat.com - 03228083004 - 2017">
-        <meta name="author" content="Aleeza Malik - 2017">
+        <meta name="author" content="IMRAN AMANAT">
+        <meta name="author" content="USMAN MALIK">
 
 
 
@@ -29,6 +38,7 @@
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Abel|Anton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 	<!-- CSS
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -123,12 +133,17 @@
     <!-- Document
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="backcolor body-compilar js-opinion">
-        <section class="bannerthenheader promobox jalsonic-promo" style="display: none;"><img src="assets/images/promo.png" height="250"></section>
+        <section class="bannerthenheader promobox jalsonic-promo" style="display: none;"><img src="" height="250"></section>
         <header class="jalsonic-header" id="sticker"><?php include_once 'assets/pagelets/header.php'; ?></header>
         <main class="container-fluid content-body jalsonic-body">
             <div class="row">
-
-               
+                
+                <section class=""><?php include_once 'assets/pagelets/cover.php'; ?></section>
+                <section class=""><?php include_once 'assets/pagelets/about.php'; ?></section>
+                <section class=""><?php include_once 'assets/pagelets/whygsni.php'; ?></section>
+                <section class=""><?php include_once 'assets/pagelets/cybersecure.php'; ?></section>
+                <section class=""><?php include_once 'assets/pagelets/ourMission.php'; ?></section>
+                <section class=""><?php include_once 'assets/pagelets/ourVision.php'; ?></section>
                
 
             </div>
