@@ -25,6 +25,9 @@ a.openlink {
   margin-top: 60px;
   padding-bottom: 0px;
 }
+.sectionbox {
+  border-bottom: 2px solid #DEF0F9;
+}
 header {
   position: fixed;
   z-index: 99;
@@ -261,5 +264,65 @@ footer .topline .containertext {
   font-size: 12px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
+}
+.testimonial-1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.testimonial {
+  background-image: url(../images/testimonial.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.testimonial .commoa {
+  text-align: center;
+  padding: 30px 0px;
+}
+.testimonial .flexslider li {
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+.testimonial .flexslider li .tms {
+  margin-top: 31px;
+}
+.section-conserv {
+  padding-bottom: 35px;
+  margin-top: 20px;
+}
+.section-conserv h1 {
+  text-align: left;
+  padding: 5px;
+  font-size: 17px;
+  color: #1e7cb9;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+.section-conserv p {
+  font-size: 12px;
+  text-align: left;
+  padding: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+.section-conserv ol {
+  list-style: inside;
+  list-style-type: decimal;
+  margin-top: 15px;
+  font-size: 12px;
+}
+.section-conserv ul {
+  list-style: inside;
+  list-style-type: circle;
+  margin-top: 15px;
+  font-size: 12px;
+}
+.section-conserv strong {
+  font-weight: bold;
+  padding: 5px;
+  text-align: left;
 }
 /*# sourceMappingURL=custom.css.map */

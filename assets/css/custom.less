@@ -53,6 +53,10 @@ a.openlink{
     .js-body-content;
 }
 
+.sectionbox{
+    border-bottom: 2px solid #DEF0F9;
+}
+
 header{
     position: fixed;
     z-index: 99;
@@ -318,6 +322,87 @@ h1{
 p{
     font-size: 12px;
 text-align: center;
-    font-family: @titleFont;  
+     font-family: @titleDespFont; 
 }
+}
+
+
+
+
+
+.testimonial(){
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.testimonial-1{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonial{
+        background-image: url(../images/testimonial.png);
+        .testimonial-1;
+        
+        .commoa{
+            text-align: center;
+            padding: 30px 0px;
+        }
+        
+        .flexslider li{
+            font-size: 14px;
+            text-align: center;
+             font-family: @titleDespFont;
+            
+            .tms{
+                margin-top: 31px;
+            }
+        }
+        
+}
+
+.section-conserv{
+    .sectionBottomPadding();
+    margin-top: 20px;
+    
+    h1{
+            text-align: left;
+            padding: 5px;
+            font-size: 17px;
+            color: @baseColor;
+            font-family: @titleFont;
+            font-weight: bold;
+    }
+    p{
+            font-size: 12px;
+            text-align: left;
+            padding: 5px;
+            font-family: @titleDespFont; 
+    }
+    
+    ol{
+        list-style:inside;
+        list-style-type: decimal;
+        margin-top: 15px;
+        font-size: 12px;
+        
+    }
+    
+    ul{
+                list-style:inside;
+        list-style-type: circle;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    
+    strong{
+        font-weight: bold;
+        padding: 5px;
+        text-align: left;
+    }
 }

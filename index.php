@@ -20,8 +20,8 @@ Jalsonic Networks - Year:2017 - Emial:info@jalsonic.com - jalsonic.com
 	<!-- Basic Page Needs
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<meta charset="utf-8">
-	<title></title>
-        <meta name="title" content="">
+	<title>Global | System Network Information &#8211; Security Solution Provider</title>
+        <meta name="title" content="Global | System Network Information &#8211; Security Solution Provider">
 	<meta name="description" content="">
         <meta name="google-site-verification" content="" />
         <meta name="jalsonic-opinion-verification" content="G245682CSGSD" />
@@ -123,6 +123,7 @@ Jalsonic Networks - Year:2017 - Emial:info@jalsonic.com - jalsonic.com
         <script src="assets/script/jquery-3.1.1.js" type="text/javascript"></script>
         <script src="assets/script/jquery.sticky.js"></script>
         <script src="assets/script/jalsonicanima.js"></script>
+        <script src="assets/script/jquery.flexslider-min.js"></script>
         <script src="assets/script/bootstrap.js" type="text/javascript"></script>
 	<script src="assets/script/beforeCustom.js" type="text/javascript"></script>
 
@@ -138,10 +139,12 @@ Jalsonic Networks - Year:2017 - Emial:info@jalsonic.com - jalsonic.com
         <main class="container-fluid content-body jalsonic-body">
             <div class="row">
                 
-                <section class=""><?php include_once 'assets/pagelets/cover.php'; ?></section>
-                <section class=""><?php include_once 'assets/pagelets/about.php'; ?></section>
-                <section class=""><?php include_once 'assets/pagelets/whygsni.php'; ?></section>
-                <section class=""><?php include_once 'assets/pagelets/cybersecure.php'; ?></section>
+                <section class="sectionbox"><?php include_once 'assets/pagelets/cover.php'; ?></section>
+                <section class="sectionbox"><?php include_once 'assets/pagelets/about.php'; ?></section>
+                <section class="sectionbox"><?php include_once 'assets/pagelets/whygsni.php'; ?></section>
+                <section class="sectionbox"><?php include_once 'assets/pagelets/cybersecure.php'; ?></section>
+                <section class="testimonial"><?php include_once 'assets/pagelets/testimonials.php'; ?></section>
+                <section class=""><?php include_once 'assets/pagelets/consultingServices.php'; ?></section>
                 <section class=""><?php include_once 'assets/pagelets/ourMission.php'; ?></section>
                 <section class=""><?php include_once 'assets/pagelets/ourVision.php'; ?></section>
                
