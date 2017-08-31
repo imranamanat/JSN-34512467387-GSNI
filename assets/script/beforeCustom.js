@@ -71,7 +71,7 @@ function RequestingMail(){
     
     $('.form-success').html("Sending Email");
     
-    $.post("https://jalsonic.com/assets/php/contact.php",
+    $.post("http://globalsni.com/assets/php/contact.php",
      {
         fullName : fullName,
         companyName : companyName,

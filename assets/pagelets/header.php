@@ -8,9 +8,11 @@
         <nav class="js-navbar jalsonic-nav sr-navbar">
             <ul id="top-menu" class="js-list">
                 <a href="index.php#about"><li class="menu">About Us</li></a>
-              <a href="index.php#features"><li class="menu">Cyber Security Solutions</li></a>
-              <a href="index.php#benefits"><li class="menu">Consulting Services</li></a>
-              <a href="index.php#price"><li class="menu">Clients</li></a>
+              <a href="index.php#solutions"><li class="menu">Cyber Security Solutions</li></a>
+              <a href="index.php#services"><li class="menu">Consulting Services</li></a>
+              <a href="index.php#clients"><li class="menu">Clients</li></a>
+              <a href="news.php"><li class="menu">News</li></a>
+             <a href="#contactus"><li class="menu">Contact US</li></a>
             </ul>
         </nav>
 
@@ -21,9 +23,11 @@
                     <ul class="mobile-nav-con">
 
                     <a href="index.php#about" class="white click-nav-off"><li class="mobile-menu">About Us</li></a>
-                    <a href="index.php#features" class="white click-nav-off"><li class="mobile-menu">Cyber Security Solutions</li></a>
+                    <a href="index.php#solutions" class="white click-nav-off"><li class="mobile-menu">Cyber Security Solutions</li></a>
                     <a href="index.php#benefits" class="white click-nav-off"><li class="mobile-menu">Consulting Services</li></a>
-                    <a href="index.php#price" class="white click-nav-off"><li class="mobile-menu">Clients</li></a>
+                    <a href="index.php#clients" class="white click-nav-off"><li class="mobile-menu">Clients</li></a>
+                    <a href="news.php" class="white click-nav-off"><li class="mobile-menu">News</li></a>
+                    <a href="#contactus" class="white click-nav-off"><li class="mobile-menu">Contact US</li></a>
 
                     </ul>
                     

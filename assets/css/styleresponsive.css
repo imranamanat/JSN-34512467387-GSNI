@@ -48,6 +48,15 @@ and open the template in the editor.
     .section-about p {
         width: 97%;
     }
+    
+    .cover .bg-overlay-1 .text-div H1 {
+        font-size: 48px;
+        padding-top: 36%;
+    }
+    
+    .section-news ul {
+    padding: 10px;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -56,7 +65,10 @@ and open the template in the editor.
     .section-about p {
         width: 97%;
     }
-
+    
+    .cover .bg-overlay-1 .text-div H1 {
+        width: 100%;
+    }
 }
 
 
