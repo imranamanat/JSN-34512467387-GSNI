@@ -193,7 +193,7 @@ footer .topline .containertext {
   padding-left: 41px;
 }
 .ourmission {
-  background-color: #1A699E;
+  background-color: #228BCF;
   padding-bottom: 15px;
 }
 .ourmission h1 {
@@ -209,7 +209,7 @@ footer .topline .containertext {
   font-size: 20px;
   padding-left: 29px;
   line-height: 31px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 .ourmission .icon {
   height: 247px;
@@ -217,7 +217,7 @@ footer .topline .containertext {
   display: block;
 }
 .ourVision {
-  background-color: #155782;
+  background-color: #2E98DD;
   padding-bottom: 15px;
 }
 .ourVision h1 {
@@ -233,7 +233,7 @@ footer .topline .containertext {
   font-size: 20px;
   padding-left: 29px;
   line-height: 31px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 .ourVision .icon {
   height: 247px;
@@ -252,7 +252,7 @@ footer .topline .containertext {
   width: 70%;
   text-align: justify;
   text-justify: distribute;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 .section-title .title {
   text-align: center;
@@ -267,10 +267,10 @@ footer .topline .containertext {
   padding-bottom: 35px;
 }
 .section-cybersecure p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 12px;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
   text-align: justify;
-  text-justify: distribute;
+  xtext-justify: distribute;
   margin: 24px 0px -19px 0px;
 }
 .section-whysni {
@@ -284,9 +284,9 @@ footer .topline .containertext {
   font-family: 'Raleway', sans-serif;
 }
 .section-whysni p {
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 .testimonial-1 {
   background-position: center;
@@ -306,9 +306,9 @@ footer .topline .containertext {
   padding: 30px 0px;
 }
 .testimonial .flexslider li {
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 .testimonial .flexslider li .tms {
   margin-top: 31px;
@@ -316,33 +316,30 @@ footer .topline .containertext {
 .section-conserv {
   padding-bottom: 35px;
   margin-top: 20px;
+  font-size: 15px;
+  font-family: 'Abel', sans-serif;
 }
 .section-conserv h1 {
   text-align: left;
   padding: 5px;
   font-size: 17px;
   color: #1e7cb9;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-weight: bold;
 }
 .section-conserv p {
-  font-size: 12px;
   text-align: justify;
-  text-justify: distribute;
   padding: 5px;
-  font-family: 'Raleway', sans-serif;
 }
 .section-conserv ol {
   list-style: inside;
   list-style-type: decimal;
   margin-top: 15px;
-  font-size: 12px;
 }
 .section-conserv ul {
   list-style: inside;
   list-style-type: circle;
   margin-top: 15px;
-  font-size: 12px;
 }
 .section-conserv strong {
   font-weight: bold;
@@ -352,13 +349,14 @@ footer .topline .containertext {
 .jalsonic-form {
   margin-top: 40px;
   margin-bottom: 40px;
+  width: 58%;
 }
 .jalsonic-form input,
 .jalsonic-form textarea,
 .jalsonic-form select {
   border: solid 1px #1e7cb9;
   box-shadow: none;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 .jalsonic-form input:focus,
 .jalsonic-form textarea:focus,
@@ -390,22 +388,12 @@ footer .topline .containertext {
   font-size: 16px;
 }
 .logo {
-  filter: gray;
-  /* IE6-9 */
-  -webkit-filter: grayscale(1);
-  /* Google Chrome, Safari 6+ & Opera 15+ */
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   -o-transition: all .5s ease;
   -ms-transition: all .5s ease;
   transition: all .5s ease;
   cursor: pointer;
-}
-.logo:hover {
-  filter: none;
-  /* IE6-9 */
-  -webkit-filter: grayscale(0);
-  /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 .section-news {
   padding-bottom: 35px;
@@ -414,14 +402,16 @@ footer .topline .containertext {
   padding: 100px;
 }
 .section-news .date {
-  font-size: 14px !important;
+  font-size: 18px !important;
   font-weight: bold;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Abel', sans-serif;
   padding: 5px;
+  border-bottom: 2px solid #1e7cb9;
+  margin-bottom: 13px;
 }
 .section-news p {
-  font-size: 12px !important;
-  font-family: 'Raleway', sans-serif;
+  font-size: 16px !important;
+  font-family: 'Abel', sans-serif;
   padding: 5px;
 }
 /*# sourceMappingURL=custom.css.map */

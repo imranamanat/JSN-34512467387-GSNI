@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row">
         <div class="logo">
-            <img src="assets/images/headerlogo.png" height="51" width="130" />
+            <a href="http://globalsni.com/"><img src="assets/images/headerlogo.png" height="51" width="130" /></a>
         </div>
 
         <nav class="js-navbar jalsonic-nav sr-navbar">
