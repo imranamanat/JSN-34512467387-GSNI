@@ -2,6 +2,9 @@
     Created on : Mar 31, 2017, 4:42:06 AM
     Author     : Imran Amanat and Jalsonic Networks Team
 */
+body {
+  font-size: 16px !important;
+}
 a.openlink {
   color: #FFFFFF;
 }
@@ -202,11 +205,11 @@ footer .topline .containertext {
   color: #FFFFFF;
   padding: 28px;
   text-align: left;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 .ourmission p {
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 16px;
   padding-left: 29px;
   line-height: 31px;
   font-family: 'Abel', sans-serif;
@@ -226,11 +229,11 @@ footer .topline .containertext {
   color: #FFFFFF;
   padding: 28px;
   text-align: left;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 .ourVision p {
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 16px;
   padding-left: 29px;
   line-height: 31px;
   font-family: 'Abel', sans-serif;
@@ -244,7 +247,7 @@ footer .topline .containertext {
   padding-bottom: 35px;
 }
 .section-about p {
-  font-size: 13px;
+  font-size: 16px;
   padding: 5px;
   text-justify: justif;
   display: block;
@@ -261,7 +264,7 @@ footer .topline .containertext {
   font-weight: bold;
   margin-top: 27px;
   color: #1e7cb9;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 .section-cybersecure {
   padding-bottom: 35px;
@@ -276,11 +279,12 @@ footer .topline .containertext {
 .section-cybersecure .button {
   width: 100%;
   margin-top: 37px;
-  font-size: 12px;
+  font-size: 13px;
   padding: 9px;
   background-color: #1e7cb9;
   border: solid 1px #1e7cb9;
   color: #FFFFFF;
+  font-family: 'Abel', sans-serif;
 }
 .section-whysni {
   padding-bottom: 35px;
@@ -290,7 +294,7 @@ footer .topline .containertext {
   padding: 5px;
   font-size: 17px;
   color: #1e7cb9;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 .section-whysni p {
   font-size: 16px;
@@ -315,7 +319,7 @@ footer .topline .containertext {
   padding: 30px 0px;
 }
 .testimonial .flexslider li {
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
   font-family: 'Abel', sans-serif;
 }
@@ -325,7 +329,7 @@ footer .topline .containertext {
 .section-conserv {
   padding-bottom: 35px;
   margin-top: 20px;
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'Abel', sans-serif;
 }
 .section-conserv h1 {
