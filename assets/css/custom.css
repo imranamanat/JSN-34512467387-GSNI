@@ -26,7 +26,7 @@ a.openlink {
   padding-bottom: 0px;
 }
 .sectionbox {
-  border-bottom: 2px solid #DEF0F9;
+  border-bottom: 2px solid #F2F2F2;
 }
 header {
   position: fixed;
@@ -244,7 +244,7 @@ footer .topline .containertext {
   padding-bottom: 35px;
 }
 .section-about p {
-  font-size: 16px;
+  font-size: 13px;
   padding: 5px;
   text-justify: justif;
   display: block;
@@ -272,6 +272,15 @@ footer .topline .containertext {
   text-align: justify;
   xtext-justify: distribute;
   margin: 24px 0px -19px 0px;
+}
+.section-cybersecure .button {
+  width: 100%;
+  margin-top: 37px;
+  font-size: 12px;
+  padding: 9px;
+  background-color: #1e7cb9;
+  border: solid 1px #1e7cb9;
+  color: #FFFFFF;
 }
 .section-whysni {
   padding-bottom: 35px;
