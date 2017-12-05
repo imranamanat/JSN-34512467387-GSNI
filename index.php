@@ -141,14 +141,17 @@ Jalsonic Networks - Year:2017 - Emial:info@jalsonic.com - jalsonic.com
                 
                 <section class="" id=""><?php include_once 'assets/pagelets/cover.php'; ?></section>
                 <section class="sectionbox" id="about"><?php include_once 'assets/pagelets/about.php'; ?></section>
-                <section class="sectionbox"><?php include_once 'assets/pagelets/whygsni.php'; ?></section>
                 <section class=""><?php include_once 'assets/pagelets/ourMission.php'; ?></section>
-                <section class=""><?php include_once 'assets/pagelets/ourVision.php'; ?></section>
+                <section class="sectionbox"><?php include_once 'assets/pagelets/whygsni.php'; ?></section>
+
+                
                 <section class="sectionbox" id="solutions"><?php include_once 'assets/pagelets/cybersecure.php'; ?></section>
                 <section class="testimonial"><?php include_once 'assets/pagelets/testimonials.php'; ?></section>
                 <section class="sectionbox" id="services"><?php include_once 'assets/pagelets/consultingServices.php'; ?></section>
-                <section class="sectionbox"><?php include_once 'assets/pagelets/contact.php'; ?></section>
-                 <section class="sectionbox" id="clients"><?php include_once 'assets/pagelets/clients.php'; ?></section>
+                <section class=""><?php include_once 'assets/pagelets/ourVision.php'; ?></section>
+                <section class="sectionbox" id="clients"><?php include_once 'assets/pagelets/clients.php'; ?></section>
+                <section class="sectionbox contactus-bg" ><?php include_once 'assets/pagelets/contact.php'; ?></section>
+                 
                
 
             </div>

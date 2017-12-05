@@ -18,11 +18,11 @@
         <div class="col-xs-12 col-sm-6 col-md-6 ">
             
             <div class="share-con">
-                    <a href="//www.facebook.com/"><div class="shareBox">
+                    <a href="//www.facebook.com/GlobalSNI2015"><div class="shareBox">
                         <i class="fa fa-facebook-square"></i>
                         <div class="text">Facebook</div>
                     </div></a>
-                    <a href="//twitter.com/"><div class="shareBox">
+                    <a href="//twitter.com/GlobalSNI"><div class="shareBox">
                         <i class="fa fa-twitter"></i>
                         <div class="text">Twitter</div>
                     </div></a>

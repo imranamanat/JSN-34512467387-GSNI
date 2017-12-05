@@ -1,4 +1,6 @@
-<div class="container section-title">
+    
+<div class="container-fluid consultingServices">
+    <div class="container section-title">
         <div class="row">
             <div class="title">consulting services</div>
         </div>
@@ -48,3 +50,4 @@
             </div>        
         </div>
     </div>
+</div>

@@ -141,10 +141,8 @@ Jalsonic Networks - Year:2017 - Emial:info@jalsonic.com - jalsonic.com
                 
                 
                 <section class=""><?php include_once 'assets/pagelets/news.php'; ?></section>
-                <section class=""><?php include_once 'assets/pagelets/ourMission.php'; ?></section>
-                <section class=""><?php include_once 'assets/pagelets/ourVision.php'; ?></section>
                 <section class="sectionbox"><?php include_once 'assets/pagelets/clients.php'; ?></section>
-                <section class=""><?php include_once 'assets/pagelets/contact.php'; ?></section>
+                <section class="contactus-bg"><?php include_once 'assets/pagelets/contact.php'; ?></section>
                
 
             </div>

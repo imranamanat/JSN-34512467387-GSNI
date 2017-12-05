@@ -31,6 +31,11 @@ a.openlink {
 .sectionbox {
   border-bottom: 2px solid #F2F2F2;
 }
+.solutions-bg {
+  background-image: url('../images/features-bg.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
 header {
   position: fixed;
   z-index: 99;
@@ -38,7 +43,7 @@ header {
   left: 0px;
   width: 100%;
   display: block;
-  background-color: #1e7cb9;
+  background-color: #203E51;
   padding: 0 !important;
   height: 60px;
 }
@@ -53,14 +58,14 @@ header .jalsonic-nav {
 header .menu {
   color: #FFFFFF !important;
   float: left;
-  background-color: #1e7cb9;
+  background-color: #203E51;
   font-size: 13px;
   padding: 22px 11px;
   cursor: pointer;
 }
 header .menu:hover,
 header .mobile-menu:hover {
-  background-color: #1A6DA3;
+  background-color: #1F3542;
 }
 header .mobile-nav {
   font-size: 25px;
@@ -143,9 +148,15 @@ header .mobile-nav-con li a.white {
   margin: 0px auto;
   padding-top: 6%;
 }
+.contactus-bg,
+.consultingServices {
+  background-image: url('../images/statistic.png');
+}
 footer {
   background-color: #0C314B;
   padding-top: 50px;
+  background-image: url('../images/footer-bg.png');
+  background-position: center;
 }
 footer .share-con {
   margin: 0px;
@@ -186,7 +197,7 @@ footer .contactus strong {
   font-weight: bold;
 }
 footer .topline {
-  border-top: solid 1px #185B8D;
+  border-top: solid 1px #172731;
   margin-top: 50px;
 }
 footer .topline .containertext {
@@ -198,6 +209,8 @@ footer .topline .containertext {
 .ourmission {
   background-color: #228BCF;
   padding-bottom: 15px;
+  background-image: url('../images/accordion-bg.png');
+  background-position: center;
 }
 .ourmission h1 {
   font-size: 45px;
@@ -222,6 +235,8 @@ footer .topline .containertext {
 .ourVision {
   background-color: #2E98DD;
   padding-bottom: 15px;
+  background-image: url('../images/testimonial-bg1.png');
+  background-position: center;
 }
 .ourVision h1 {
   font-size: 45px;
@@ -295,6 +310,7 @@ footer .topline .containertext {
   font-size: 17px;
   color: #1e7cb9;
   font-family: 'Abel', sans-serif;
+  font-weight: bold;
 }
 .section-whysni p {
   font-size: 16px;
@@ -370,6 +386,7 @@ footer .topline .containertext {
   border: solid 1px #1e7cb9;
   box-shadow: none;
   font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
 }
 .jalsonic-form input:focus,
 .jalsonic-form textarea:focus,

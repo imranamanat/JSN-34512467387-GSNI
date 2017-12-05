@@ -31,7 +31,7 @@
 
                     </ul>
                     
-                    <a href="#moveTop"><div class="move-arrow-up"><i class="fa fa-arrow-up"></i></div></a>
+<!--                    <a href="#moveTop"><div class="move-arrow-up"><i class="fa fa-arrow-up"></i></div></a>-->
  
                     
     </div>

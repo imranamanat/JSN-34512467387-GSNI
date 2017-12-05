@@ -6,8 +6,9 @@
 
 
 @baseColor: #1e7cb9;
+@baseColorBlack : #203E51;
 
-@menuHover: #1A6DA3;
+@menuHover: #1F3542;
 
 @colorWhite: #FFFFFF;
 @titleFont: 'Abel', sans-serif;
@@ -57,6 +58,13 @@ a.openlink{
 
 .sectionbox{
     border-bottom: 2px solid #F2F2F2;
+
+}
+
+.solutions-bg{
+    background-image: url('../images/features-bg.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 header{
@@ -66,7 +74,7 @@ header{
     left: 0px;
     width: 100%;
     display: block;
-    background-color: @baseColor;  padding: 0 !important;
+    background-color: @baseColorBlack;  padding: 0 !important;
     height: 60px;
     
     
@@ -83,7 +91,7 @@ header{
     .menu{
         color: @colorWhite !important;
         float: left;
-        background-color: @baseColor;
+        background-color: @baseColorBlack;
         font-size: 13px;
         padding: 22px 11px;
         cursor: pointer;
@@ -188,13 +196,16 @@ header{
 }
 
 
-
+.contactus-bg, .consultingServices{
+        background-image: url('../images/statistic.png');
+}
 
 
 footer{
     background-color: #0C314B;
     padding-top: 50px;
-    
+    background-image: url('../images/footer-bg.png');
+    background-position: center;
     
         .share-con { margin: 0px; float: right; width: 347px; height: 110px;
 
@@ -221,7 +232,7 @@ footer{
        }
        
        .topline{
-           border-top: solid 1px #185B8D;
+           border-top: solid 1px #172731;
            margin-top: 50px;
                
             .containertext{
@@ -237,6 +248,8 @@ footer{
 .ourmission {
     background-color: #228BCF;
     padding-bottom: 15px;
+    background-image: url('../images/accordion-bg.png');
+    background-position: center;
     
     h1{
         font-size: 45px;
@@ -268,6 +281,8 @@ footer{
 .ourVision{
     background-color: #2E98DD;
     padding-bottom: 15px;
+    background-image: url('../images/testimonial-bg1.png');
+    background-position: center;
     
     h1{
         font-size: 45px;
@@ -361,7 +376,8 @@ h1{
     padding: 5px;
     font-size: 17px;
     color: @baseColor;
-    font-family: @titleFont;    
+    font-family: @titleFont;
+    font-weight: bold;
 }
 
 p{
@@ -460,6 +476,7 @@ text-align: center;
         border: solid 1px @baseColor;
         box-shadow: none;
         font-family: @titleDespFont; 
+        text-transform: uppercase;
     }
     
     input:focus, textarea:focus, select:focus{
@@ -515,6 +532,7 @@ text-align: center;
   //filter: none; /* IE6-9 */
   //-webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
+
 
 
 
