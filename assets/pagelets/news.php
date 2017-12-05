@@ -12,7 +12,7 @@
         <ul>
             
 
-            <li><p class="date">August 25 </p>
+            <li><p class="date">August 25, 2017 </p>
                 <p>#TeamGSNI is pleased to announce the award of multi million contracts from two largest textile and manufacturing groups of Pakistan for the provisioning of SOPHOS Next Generation Firewall Solutions.</p>
                 <p>GSNI - A Gold Partner of SOPHOS Cyber Security Solutions will provide dedicated training, deployment and after sales support services.</p>
                 <p>#TeamGSNI is humbly thankful to its customer for their confidence, trust and ability on GSNI for delivering such large scale assignments.</p>
@@ -20,7 +20,7 @@
             </li>
 
             <li>
-                <p class="date">June 19</p>
+                <p class="date">June 19, 2017</p>
                 <p>Global SNI - GSNI, an Authorized Gold Partner of SOPHOS is pleased to announce award of the contract from one of most critical department of Government of Punjab for the provisioning of SOPHOS Advanced Server Protection Solution.</p>
                 <p>Solution will provide protection from latest Cyber Security Threats including Ransomware.</p>
                 <p>Part of the contract also includes Training and Deployment services as well. #TeamGSNI is humbly thankful to entire SOPHOS team and End User for their confidence of Global SNI.</p>
@@ -28,7 +28,7 @@
             </li>
 
             <li>
-                <p class="date">May 19</p>
+                <p class="date">May 19, 2017</p>
                 <p>Global SNI is pleased to announce its Partnership Status upgrade with SOPHOS, a Leading Cyber Security Solution Provider Company in acceptance of GSNI Team excellent work.</p>
                 <p>GSNI is now officially a "Gold Partner" of SOPHOS in Pakistan having a most skilled and certified team on SOPHOS Solutions. #TeamGSNI is humbly thankful to SOPHOS's Management for their confidence on its efforts.</p>
                 <p>GSNI Management also appreciates all the hard work by its team.</p>
@@ -36,31 +36,31 @@
             </li>
 
             <li>
-                <p class="date">May 15</p>
+                <p class="date">May 15, 2017</p>
                 <p>GSNI is proud to share the "Recommendation" from "Mobilink Microfinance Bank" for its services against #SOPHOS XG Firewall Solution. #TeamGSNIis humbly thankful to Mobilink Bank team for all their support.</p>
                 <p>#XGFirewall #GSNI #SOPHOSTrustedPartner</p>
             </li>
 
             <li>
-                <p class="date">April 11</p>
+                <p class="date">April 11, 2017</p>
                 <p>Further to strengthen its "Cyber Security Portfolio", Global SNI - GSNI is pleased to announce its partnership with "Symantec", a leader in Cyber Security Solutions.</p>
                 <p>Founded in 1982, Symantec has evolved to become the global leader in cyber security, with more than 11,000 employees in more than 35 countries. Operating one of the world’s largest cyber intelligence networks, Symantec see more threats, and protect more customers from the next generation of attacks. Symantec help companies, governments and individuals secure their most important data wherever it lives. #TeamGSNI #GSNI #SymantecPartner #SymantecEndPoint#CyberSecuritySolution</p>
             </li>
             
             <li>
-                <p class="date">March 14</p>
+                <p class="date">March 14, 2017</p>
                 <p>DigiDoc - Document Management System becomes ICI Pakistan Recommendation... #DocumentManagementSystem #DigiDoc #TeamGSNI</p>
             </li>
 
             <li>
-                <p class="date">March 6</p>
+                <p class="date">March 6, 2017</p>
                 <p>Global SNI - GSNI is proud to announce the award of major contract for SOPHOS Network Security Solution from one of the leading and largest Private Hospital in Pakistan. Contract includes solution provisioning along with SLA for the mainintence of the solution. Dedicated training will also be provided to end user.</p>
                 <p>#TeamGSNI humbly thankful to its partner SOPHOS and GSNI management highly appreciates all the efforts of its most prestigious team.</p>
                 <p>#GSNI #Sophos #Networksecuritysolution</p>
             </li>
 
             <li>
-                <p class="date">March 2</p>
+                <p class="date">March 2, 2017</p>
                 <p>Global SNI - GSNI is pleased to announce the award of SOPHOS Network Security Solution Project from one of the leading Manufacturing unit of Pakistan.</p>
                 <p>Scope includes the implementation of the solution for managing a network of over 1000 users, technical staff training and SLA.</p>
                 <p>#TeamGSNI highly appreciate the support by its principle SOPHOS and valued customer. #GSNI #Sophos #NextGenerationFirewall</p>
