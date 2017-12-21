@@ -2,6 +2,57 @@
     Created on : Mar 31, 2017, 4:42:06 AM
     Author     : Imran Amanat and Jalsonic Networks Team
 */
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/K88pR3goAWT7BTt32Z01mxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/RjgO7rYTmqiVp7vzi-Q5URJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/LWCjsQkB6EMdfHrEVqA1KRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/xozscpT2726on7jbcb_pAhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/59ZRklaO5bWGqF5A9baEERJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/u-WUoqrET9fUeobQW7jkRRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v15/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
 body {
   font-size: 16px !important;
 }
@@ -148,9 +199,12 @@ header .mobile-nav-con li a.white {
   margin: 0px auto;
   padding-top: 6%;
 }
-.contactus-bg,
 .consultingServices {
   background-image: url('../images/statistic.png');
+}
+.contactus-bg {
+  background-color: #EDF1F5;
+  border-top: solid #DDE4EC 1px;
 }
 footer {
   background-color: #0C314B;
@@ -218,14 +272,14 @@ footer .topline .containertext {
   color: #FFFFFF;
   padding: 28px;
   text-align: left;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
 }
 .ourmission p {
   color: #FFFFFF;
   font-size: 16px;
   padding-left: 29px;
   line-height: 31px;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
 }
 .ourmission .icon {
   height: 247px;
@@ -244,14 +298,14 @@ footer .topline .containertext {
   color: #FFFFFF;
   padding: 28px;
   text-align: left;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
 }
 .ourVision p {
   color: #FFFFFF;
   font-size: 16px;
   padding-left: 29px;
   line-height: 31px;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
 }
 .ourVision .icon {
   height: 247px;
@@ -270,22 +324,21 @@ footer .topline .containertext {
   width: 70%;
   text-align: justify;
   text-justify: distribute;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
 }
 .section-title .title {
   text-align: center;
   font-size: 27px;
   text-transform: uppercase;
-  font-weight: bold;
   margin-top: 27px;
   color: #1e7cb9;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
 }
 .section-cybersecure {
   padding-bottom: 35px;
 }
 .section-cybersecure p {
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
   font-size: 16px;
   text-align: justify;
   xtext-justify: distribute;
@@ -299,7 +352,7 @@ footer .topline .containertext {
   background-color: #1e7cb9;
   border: solid 1px #1e7cb9;
   color: #FFFFFF;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
 }
 .section-whysni {
   padding-bottom: 35px;
@@ -309,13 +362,13 @@ footer .topline .containertext {
   padding: 5px;
   font-size: 17px;
   color: #1e7cb9;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
   font-weight: bold;
 }
 .section-whysni p {
   font-size: 16px;
   text-align: center;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
 }
 .testimonial-1 {
   background-position: center;
@@ -337,7 +390,7 @@ footer .topline .containertext {
 .testimonial .flexslider li {
   font-size: 16px;
   text-align: center;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
 }
 .testimonial .flexslider li .tms {
   margin-top: 31px;
@@ -346,14 +399,14 @@ footer .topline .containertext {
   padding-bottom: 35px;
   margin-top: 20px;
   font-size: 16px;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
 }
 .section-conserv h1 {
   text-align: left;
   padding: 5px;
   font-size: 17px;
   color: #1e7cb9;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
   font-weight: bold;
 }
 .section-conserv p {
@@ -385,7 +438,7 @@ footer .topline .containertext {
 .jalsonic-form select {
   border: solid 1px #1e7cb9;
   box-shadow: none;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
   text-transform: uppercase;
 }
 .jalsonic-form input:focus,
@@ -434,14 +487,14 @@ footer .topline .containertext {
 .section-news .date {
   font-size: 18px !important;
   font-weight: bold;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
   padding: 5px;
   border-bottom: 2px solid #1e7cb9;
   margin-bottom: 13px;
 }
 .section-news p {
   font-size: 16px !important;
-  font-family: 'Abel', sans-serif;
+  font-family: "Open Sans";
   padding: 5px;
 }
 /*# sourceMappingURL=custom.css.map */
